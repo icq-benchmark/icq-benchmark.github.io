@@ -20,11 +20,11 @@
   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="Video Temporal Grounding">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>ICQ-Benchmark</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -33,13 +33,12 @@
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/fontawesome.all.min.js"></script>
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
@@ -52,20 +51,36 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">ICQ: Localizing Events in Videos with Multimodal Queries</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="Gengyuan Zhang" target="_blank">Gengyuan Zhang</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="Ada Mang Ling Fok" target="_blank">Ada Mang Ling Fok</a><sup>*</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="Yan Xia" target="_blank">Yan Xia</a>,
+                  </span>
+                    <span class="author-block"></span>
+                    <a href="Yansong Tang" target="_blank">Yansong Tang</a>,
+                  </span>
+                  <br>
+                  <span class="author-block">
+                    <a href="Daniel Cremers" target="_blank">Daniel Cremers</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="Philip Torr" target="_blank">Philip Torr</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="Volker Tresp" target="_blank">Volker Tresp</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="Jindong Gu" target="_blank">Jindong Gu</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="author-block">LMU Munich, TU Munich, Tsinghua University, University of Oxford<br>2024</span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
@@ -82,38 +97,50 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
+                    <!-- supplementary pdf link -->
                     <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>supplementary</span>
                     </a>
                   </span>
 
-                  <!-- Github link -->
+                  <!-- github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/icq-benchmark/icq-benchmark" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>code</span>
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
+                <!-- arxiv abstract link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/<arxiv paper id>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>arxiv</span>
                 </a>
               </span>
+
+               <!-- huggingface abstract link -->
+               <span class="link-block">
+                <a href="https://huggingface.co/datasets/gengyuanmax/icq-highlight" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class=fa-solid fa-face-smiling-hands"></i>
+                </span>
+                <span>dataset</span>
+              </a>
+              </span>
+
             </div>
           </div>
         </div>
@@ -124,11 +151,10 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
         <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
@@ -137,7 +163,7 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -148,7 +174,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Video understanding is a pivotal task in the digital era, yet the dynamic and multievent nature of videos makes them labor-intensive and computationally demanding to process. Thus, localizing a specific event given a semantic query has gained importance in both user-oriented applications like video search and academic research into video foundation models. A significant limitation in current research is that semantic queries are typically in natural language that depicts the semantics of the target event. This setting overlooks the potential for multimodal semantic queries composed of images and texts. To address this gap, we introduce a new benchmark, ICQ, for localizing events in videos with multimodal queries, along with a new evaluation dataset ICQ-Highlight. Our new benchmark aims to evaluate how well models can localize an event given a multimodal semantic query that consists of a reference image, which depicts the event, and a refinement text to adjust the images' semantics. To systematically benchmark model performance, we include 4 styles of reference images and 5 types of refinement texts, allowing us to explore model performance across different domains. We propose 3 adaptation methods that tailor existing models to our new setting and evaluate 10 SOTA models, ranging from specialized to large-scale foundation models. We believe this benchmark is an initial step toward investigating multimodal queries in video event localization.
           </p>
         </div>
       </div>
@@ -157,6 +183,30 @@
 </section>
 <!-- End paper abstract -->
 
+<!-- image teaser-->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <img src="static/images/icq-teaser-1.png" alt="Localizing events in videos with semantics queries: so far, the community has only focused on natural language query-based video event localization. Our benchmark ICQ focuses on a more general scenario: localizing events in video with multimodal queries."/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- add a learderborad-->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <img src="static/images/leaderboard.png" alt="Leaderboard"/>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- Image carousel -->
 <section class="hero is-small">
@@ -164,21 +214,18 @@
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
@@ -278,7 +325,7 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>TBD</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
