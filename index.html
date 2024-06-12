@@ -190,26 +190,72 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <img src="static/images/icq-teaser-1.png" alt="Localizing events in videos with semantics queries: so far, the community has only focused on natural language query-based video event localization. Our benchmark ICQ focuses on a more general scenario: localizing events in video with multimodal queries."/>
+        <h2 class="subtitle has-text-justified">
+          Localizing events in videos with semantics queries: so far, the community has only focused on natural language query-based video event localization. Our benchmark ICQ focuses on a more general scenario: localizing events in video with multimodal queries.
         </div>
       </div>
     </div>
   </div>
 
+  <br><br><br>
 
-<!-- add a learderborad-->
+<!-- Dataset-->
+<!-- Examples-->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
+      <h2 class="title is-3 has-text-centered">Dataset</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <img src="static/images/leaderboard.png" alt="Leaderboard"/>
+          <img src="static/images/icq-example-1.png" alt=""/>
+        <h2 class="subtitle has-text-centered">
+          Examples of ICQ-Highlight.
+        </h2>
         </div>
       </div>
+      <br><br><br>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <img src="static/images/icq-dist-1.png" alt=""/>
+        <h2 class="subtitle has-text-centered">
+          Distribution of ICQ-Highlight.
+        </h2>
+        </div>
     </div>
   </div>
 
-<!-- Image carousel -->
+
+  <br><br><br>
+<!-- learderborad-->
 <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Benchmark</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/result_recall.png" alt="Model performance (Recall) on ICQ. We highlight the best score in bold for each adaptation method
+        and reference image style. For CAP and SUM, we also report the standard deviation of 3 runs with different
+        prompts. † indicates the usage of additional audio modality."/>
+        <h2 class="subtitle has-text-centered">
+          Model performance (Recall) on ICQ.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/result_map.png" alt="Model performance (mAP) on ICQ. We highlight the best score in bold for each adaptation method
+        and reference image style. For CAP and SUM, we also report the standard deviation of 3 runs with different
+        prompts. † indicates the usage of additional audio modality."/>
+        <h2 class="subtitle has-text-centered">
+          Model performance (mAP) on ICQ.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
@@ -232,7 +278,6 @@
        </h2>
      </div>
      <div class="item">
-      <!-- Your image here -->
       <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
@@ -241,56 +286,51 @@
   </div>
 </div>
 </div>
-</section>
+</section> -->
 <!-- End image carousel -->
 
 
 
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
       <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
           <div class="publication-video">
-            <!-- Youtube embed code here -->
             <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End youtube video -->
 
 
 <!-- Video carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
             <source src="static/videos/carousel1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
             <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
             <source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
@@ -298,7 +338,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End video carousel -->
 
 
@@ -307,7 +347,7 @@
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -317,8 +357,50 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
+
+
+<!-- Disclaimer & Content Warning-->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title" style="text-align: justify;">Disclaimer</h2>
+    <div class="content" style="text-align: justify;">
+      <p>
+        Please read: This dataset contain synthetic images and despite manual filtering the dataset might still contain sensitive/unpleasant/hallucinating images. If you find any such images, please report them to us. We will remove them from the dataset. The images in this dataset are synthetic and do not represent real images. The dataset is intended for research purposes only and should not be used for any other purposes.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- License -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title">License</h2>
+    <div class="content">
+      <p>
+        The annotation file is licensed under the CC BY-NC-SA License - see the <a href="https://spdx.org/licenses/CC-BY-NC-SA-4.0" target="_blank">LICENSE</a> file for details.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Acknowledgements -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title">Acknowledgements</h2>
+    <div class="content">
+      <p>
+        We would like to thank the following projects/people for their contributions to this project. <br>
+        <ul>
+          <li>Datasets: <a href="https://github.com/jayleicn/moment_detr" target="_blank">QVHighlights</a></li>
+          <li>Codebases:</li>
+        </ul>
+        We thank the autohrs for their contributions to this project.
+      </p>
+    </div>
+  </div>
+</section>
 
 
 <!--BibTex citation -->
